@@ -3,9 +3,8 @@
 # todo: 
 # use yay as a pacman frontend
 # use some colors for the echo messages
-# take care of orphanes packages
-# take care of broken symlinks
-# back up system
+# listen to sigint
+# The requests to the various packages can be run in parallel!
 
 
 #pw=read -s "password?"
