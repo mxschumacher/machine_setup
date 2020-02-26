@@ -1,0 +1,72 @@
+#!/usr/bin/fish
+
+# todo: 
+# use yay as a pacman frontend
+# use some colors for the echo messages
+# take care of orphanes packages
+# take care of broken symlinks
+# back up system
+
+
+#pw=read -s "password?"
+
+neofetch --gtk3 off --gtk2 off --refresh_rate on 
+
+echo "Let's look for any failed services as reported by systemd"
+systemctl --failed
+
+# echo "Here, we can see the error logs from journalctl ..."
+# journalctl -p 3 -xb
+
+
+echo "Clearing old system logs ..."
+sudo journalctl --vacuum-time=1d
+
+echo "Emptying trash ..."
+# needs to be adapted to fish script ... help expand
+# rm -rf ~/.local/share/Trash/files/*
+
+echo "Clearing pacman caches ..."
+paccache -r
+
+
+echo "Removing orphaned packages ..."
+for p in (pacman -Qtdq)
+	# this seems pretty risky
+	yes | sudo pacman -Rns $p
+end
+
+echo "Retrieving mirror status and updating based on location"
+
+# pacman-mirrors --status
+
+sudo pacman-mirrors --geoip --api --protocol https
+
+echo "Updating pacman packages ..."
+# describe what the flags are doing; should be easier to read
+yay
+
+echo "The following Kernels are intalled:"
+mhwd-kernel --listinstalled
+
+echo "These Kernels are available:"
+mhwd-kernel --list
+
+echo "If applicable, please consider upgrading with: 'mhwd-kernel install <kernel_name>'"
+
+echo "Outdated npm packages ..."
+npm outdated -g --depth=0
+
+# can we run this in parallel? Could be done independently of the manjaro package stuff
+echo "Updating global npm packages ..."
+sudo npm update -g
+
+echo "Consider inspecting what's on the hard drive by running filelight"
+
+echo "When is the last time you have done a backup?"
+
+echo "Maybe it is a good point in time to clear browser caches?"
+
+echo "You should look at all the installed packages on this machine - do you need them all?"
+
+echo "When is the last time you checked for the availability of a new kernel?"
