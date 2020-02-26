@@ -6,9 +6,16 @@ automate broken symlink repair
 generate & store shell history. Only unique commands. Beware of leaked passwords!
 
 create "fresh_install" script: manually get yay, then install everything in the packages list, copy config files
+---> test in kvm
 
 yay -> fish -> omf -> sushi
+
+automate global packages installation from:
+- npm (with yarn)
+- pypi
 
 config + plugins for: vscode, Pycharm, Firefox
 
 there are more todos in scripts/system_maintenance 
+
+get inspiration from the countless system automation and dotfiles repos + blog posts!
