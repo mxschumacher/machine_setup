@@ -1,0 +1,43 @@
+http -d "https://www.archlinux.org/releng/releases/2020.02.01/torrent/"
+
+
+1. go to https://www.archlinux.org/download/
+2. download the archlinux.iso, preferably through a torrent (Transmission can be used as a client)
+3. download the signature for the .iso --> archlinux-<version>-x86_64.iso.sig, version could be something like "2020.02.01"
+4. With both files in the same folder, run:
+> gpg --keyserver-options auto-key-retrieve --verify archlinux-2020.02.01-x86_64.iso.sig  
+
+install qemu as a virtual machine
+
+if you just want user mode cpu emulation for X86-64 architecture, you need to use qemu-x86_64 binary and if you need whole X86-64 bit system emulation (like your PC), qemu-system-x86_64 binary must be used in commands below.
+
+
+to create a virtual disk with 10GB of storage capacity
+
+qemu-img create my_arch_vm_disk 10G
+
+qemu-system-x86_64 -boot d -cdrom Downloads/archlinux-2020.02.01-x86_64.iso -m 2048 -hda <my_arch_vm_disk>
+
+timedatectl set-ntp true
+
+fdisk -l
+
+Hard disks are divided into partitions and this division is described in the partition table. 
+
+The kernel is the core of an operating system. It functions on a low level (kernelspace) interacting between the hardware
+ of the machine and the programs which use the hardware to run. The kernel temporarily stops programs to run other programs 
+ in the meantime, which is known as preemption. This creates the illusion of many tasks being executed simultaneously, even on 
+ single-core CPUs. The kernel uses the CPU scheduler to decide which program takes priority at any given moment. 
+
+The default Arch Linux kernel is modular, meaning many of the drivers for machine hardware 
+reside on the hard drive and are available as modules. At boot, udev takes an inventory of 
+your hardware and loads appropriate modules (drivers) for your corresponding hardware, which 
+will in turn allow creation of a network interface. 
+
+create a root password with:
+
+passwd
+
+sync packages with:
+
+pacman -Syyu

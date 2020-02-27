@@ -4,6 +4,7 @@
 # use yay as a pacman frontend
 # use some colors for the echo messages
 # listen to sigint
+# Make sure to have a strong connection to the internet for the steps that depend on the network
 # The requests to the various packages can be run in parallel!
 
 
@@ -43,7 +44,7 @@ sudo pacman-mirrors --geoip --api --protocol https
 
 echo "Updating pacman packages ..."
 # describe what the flags are doing; should be easier to read
-yay
+pacman -Syyu
 
 echo "The following Kernels are intalled:"
 mhwd-kernel --listinstalled

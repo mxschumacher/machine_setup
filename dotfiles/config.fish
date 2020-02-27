@@ -25,5 +25,5 @@ alias g 'git'
 alias gs "git status"
 alias gp "git push"
 alias v "nvim"
-alias afk "i3lock"
+alias afk "i3lock-fancy"
 alias rnm "sudo systemctl restart NetworkManager.service"

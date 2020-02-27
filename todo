@@ -3,10 +3,11 @@ create mechanism to copy configuration files to correct location on the system
 automate backup
 automate broken symlink repair
 
-generate & store shell history. Only unique commands. Beware of leaked passwords!
+generate & store shell history. Only unique commands. Beware of leaked passwords! Really useful for autocompletion in Fish.
 
 create "fresh_install" script: manually get yay, then install everything in the packages list, copy config files
----> test in kvm
+---> test in qemu on a fresh Arch installation
+---> setup internet connection, keyboard layout, user accounts, install git. Then pull this script and let it do the rest.
 
 yay -> fish -> omf -> sushi
 
