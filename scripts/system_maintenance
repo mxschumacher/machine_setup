@@ -7,28 +7,29 @@
 # Make sure to have a strong connection to the internet for the steps that depend on the network
 # The requests to the various packages can be run in parallel!
 
-
-#pw=read -s "password?"
-
 neofetch --gtk3 off --gtk2 off --refresh_rate on 
 
 echo "Let's look for any failed services as reported by systemd"
 systemctl --failed
 
-# echo "Here, we can see the error logs from journalctl ..."
-# journalctl -p 3 -xb
-
+echo "Here, we can see the error logs from journalctl ..."
+journalctl -p 3 -xb
 
 echo "Clearing old system logs ..."
 sudo journalctl --vacuum-time=1d
 
+echo "updating anti-virus signatures"
+sudo freshclam
+
+echo "Running anti virus scan on home folder"
+clamscan ~
+
 echo "Emptying trash ..."
 # needs to be adapted to fish script ... help expand
-# rm -rf ~/.local/share/Trash/files/*
+rm -rf ~/.local/share/Trash/files/*
 
 echo "Clearing pacman caches ..."
 paccache -r
-
 
 echo "Removing orphaned packages ..."
 for p in (pacman -Qtdq)
@@ -44,7 +45,7 @@ sudo pacman-mirrors --geoip --api --protocol https
 
 echo "Updating pacman packages ..."
 # describe what the flags are doing; should be easier to read
-pacman -Syyu
+yay
 
 echo "The following Kernels are intalled:"
 mhwd-kernel --listinstalled
@@ -54,12 +55,20 @@ mhwd-kernel --list
 
 echo "If applicable, please consider upgrading with: 'mhwd-kernel install <kernel_name>'"
 
+echo "Please consider using Filelight to see how the file system is used"
+
+echo "Here is an overview of your log file folders:"
+sudo du -h /var/log
+
 echo "Outdated npm packages ..."
 npm outdated -g --depth=0
 
 # can we run this in parallel? Could be done independently of the manjaro package stuff
 echo "Updating global npm packages ..."
 sudo npm update -g
+
+# the extension manager for my shell
+omf update
 
 echo "Consider inspecting what's on the hard drive by running filelight"
 
