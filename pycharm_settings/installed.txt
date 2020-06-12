@@ -1,0 +1,16 @@
+BashSupport
+IdeaVIM
+Key Promoter X
+String Manipulation
+com.alayouni.ansiHighlight
+com.intellij.ideolog
+izhangzhihao.rainbow.brackets
+mobi.hsz.idea.gitignore
+monokai-pro
+org.intellij.plugins.hcl
+org.rust.lang
+org.toml.lang
+org.tonybaloney.security.pycharm-security
+ru.adelf.idea.dotenv
+some.awesome
+zielu.gittoolbox

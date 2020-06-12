@@ -1,0 +1,354 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>app</entry>
+        <entry encoding="base64">XDxSVU5cPg==</entry>
+        <entry>Login</entry>
+        <entry>users</entry>
+        <entry encoding="base64">XDxzZXRfb2ZfcG9zdHNfdG9fcmVzcG9uZF90b1w+</entry>
+        <entry>all_users</entry>
+        <entry>app.</entry>
+        <entry>login</entry>
+        <entry>project-id</entry>
+        <entry>splash-30c43</entry>
+        <entry>&quot;</entry>
+        <entry encoding="base64">XDxcXD4=</entry>
+        <entry>console.error</entry>
+      </history-search>
+      <history-cmd>
+        <entry>%s/project-id/projectId/gc</entry>
+        <entry>%s/project-id/${projectId}/gc</entry>
+        <entry>17</entry>
+        <entry>%s/splash-30c43/${projectId}/gc</entry>
+        <entry>%s/&quot;/`/gc</entry>
+        <entry>16</entry>
+        <entry>6</entry>
+        <entry>38</entry>
+        <entry>34</entry>
+        <entry>46</entry>
+        <entry>q</entry>
+        <entry>18</entry>
+        <entry>4</entry>
+        <entry>12</entry>
+        <entry>39</entry>
+        <entry>W</entry>
+        <entry>10</entry>
+        <entry>%s/console.error/throw Error/gc</entry>
+        <entry>x</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/code/splash/app/frontend/js/main.tsx" timestamp="1591824673158">
+        <mark key="[" line="72" column="17" />
+        <mark key="]" line="77" column="0" />
+        <mark key="^" line="77" column="0" />
+        <mark key="." line="77" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/README.md" timestamp="1591830251264">
+        <mark key="[" line="66" column="63" />
+        <mark key="]" line="41" column="79" />
+        <mark key="." line="41" column="78" />
+        <mark key="^" line="41" column="79" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591824088848">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1591864610346">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/environment_check.sh" timestamp="1591862204730">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="23" />
+        <mark key="^" line="3" column="23" />
+        <mark key="." line="3" column="22" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb3ccfd9-8bd0-4896-b7d3-5f722f5fd00a/console.sql" timestamp="1591864915009">
+        <mark key="[" line="0" column="19" />
+      </file>
+      <file name="/console" timestamp="1591864911623">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/queries.sql" timestamp="1591867272921">
+        <mark key="[" line="68" column="20" />
+      </file>
+      <file name="$USER_HOME$/code/splash/app/server.py" timestamp="1591807332196">
+        <mark key="'" line="104" column="64" />
+        <mark key="[" line="66" column="0" />
+        <mark key="]" line="66" column="0" />
+        <mark key="^" line="66" column="0" />
+        <mark key="." line="66" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/notes" timestamp="1591801054741">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/Caddyfile" timestamp="1591829796373">
+        <mark key="[" line="2" column="1" />
+        <mark key="]" line="5" column="11" />
+        <mark key="^" line="5" column="11" />
+        <mark key="." line="5" column="10" />
+      </file>
+      <file name="$USER_HOME$/code/splash/pyproject.toml" timestamp="1591864773413">
+        <mark key="[" line="39" column="49" />
+        <mark key="]" line="41" column="31" />
+        <mark key="^" line="41" column="31" />
+        <mark key="." line="41" column="30" />
+      </file>
+      <file name="$USER_HOME$/code/splash/docker-compose.yml" timestamp="1591866226158">
+        <mark key="[" line="29" column="24" />
+        <mark key="]" line="37" column="10" />
+        <mark key="^" line="37" column="10" />
+        <mark key="." line="37" column="9" />
+      </file>
+      <file name="$USER_HOME$/code/splash/generate_fake_data.py" timestamp="1591830037512">
+        <mark key="[" line="0" column="87" />
+        <mark key="]" line="5" column="0" />
+        <mark key="^" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/app/talk_to_the_google_cloud.py" timestamp="1591796112216">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="7" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/splash/backup_database.py" timestamp="1591866032752" />
+      <file name="$USER_HOME$/code/splash/cli.py" timestamp="1591956477664">
+        <mark key="[" line="42" column="27" />
+        <mark key="]" line="45" column="65" />
+        <mark key="^" line="45" column="65" />
+        <mark key="." line="45" column="64" />
+      </file>
+      <file name="$USER_HOME$/code/splash/app/frontend/html/main.html" timestamp="1591824473968">
+        <mark key="[" line="7" column="12" />
+      </file>
+      <file name="$USER_HOME$/code/splash/app/config.py" timestamp="1591823883690">
+        <mark key="'" line="30" column="0" />
+        <mark key="[" line="9" column="17" />
+        <mark key="]" line="9" column="17" />
+        <mark key="." line="9" column="16" />
+        <mark key="^" line="9" column="17" />
+      </file>
+      <file name="$USER_HOME$/code/splash/secrets_and_config.env" timestamp="1591823546246">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="102" column="35" filename="$USER_HOME$/code/splash/app/cli.py" />
+      <jump line="164" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="105" column="16" filename="$USER_HOME$/code/splash/app/cli.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/splash/app/cli.py" />
+      <jump line="18" column="26" filename="$USER_HOME$/code/splash/app/helpers.py" />
+      <jump line="22" column="8" filename="$USER_HOME$/code/splash/tests/test_splash.py" />
+      <jump line="156" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="7" column="1" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="45" column="30" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="50" column="25" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="23" column="0" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="57" column="0" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="6" column="33" filename="$USER_HOME$/code/splash/db.py" />
+      <jump line="37" column="76" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="41" column="0" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="27" column="27" filename="$USER_HOME$/code/splash/todo" />
+      <jump line="27" column="0" filename="$USER_HOME$/code/splash/tests/test_splash.py" />
+      <jump line="36" column="0" filename="$USER_HOME$/code/splash/db.py" />
+      <jump line="64" column="0" filename="$USER_HOME$/code/splash/db.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/code/splash/db.py" />
+      <jump line="16" column="110" filename="$USER_HOME$/code/splash/todo" />
+      <jump line="1" column="0" filename="$USER_HOME$/code/splash/Dockerfile" />
+      <jump line="34" column="39" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="39" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="135" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="19" column="39" filename="$USER_HOME$/code/splash/db.py" />
+      <jump line="32" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="114" column="52" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="88" column="1" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="127" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/splash/todo" />
+      <jump line="141" column="16" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="59" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="145" column="9" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="43" column="9" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="115" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="40" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="75" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="106" column="34" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="97" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="80" column="41" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="86" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="21" column="36" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="22" column="46" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="57" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="34" column="0" filename="$USER_HOME$/code/splash/app/helpers.py" />
+      <jump line="83" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="87" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="115" column="25" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="27" column="42" filename="$USER_HOME$/code/splash/test_client.py" />
+      <jump line="143" column="64" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="31" column="69" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="76" column="25" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="207" column="0" filename="$USER_HOME$/code/splash/generate_fake_data.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="24" column="52" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="199" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="25" column="52" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="23" column="29" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="30" column="10" filename="$USER_HOME$/code/splash/pyproject.toml" />
+      <jump line="1" column="0" filename="$USER_HOME$/code/splash/app/frontend/css/style.css" />
+      <jump line="15" column="0" filename="$USER_HOME$/code/splash/app/frontend/css/style.css" />
+      <jump line="131" column="0" filename="$USER_HOME$/code/splash/app/frontend/css/style.css" />
+      <jump line="4" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/tutorial.jsx" />
+      <jump line="130" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/tutorial.jsx" />
+      <jump line="118" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="143" column="3" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="102" column="3" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="24" column="0" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="6" column="3" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="3" column="0" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="51" column="0" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="9" column="0" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="58" column="0" filename="$USER_HOME$/code/splash/app/frontend/html/login.html" />
+      <jump line="22" column="39" filename="$USER_HOME$/code/splash/app/frontend/js/tutorial.jsx" />
+      <jump line="78" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/code/splash/.gitignore" />
+      <jump line="29" column="0" filename="$USER_HOME$/code/splash/tests/test_splash.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/code/splash/.env" />
+      <jump line="3" column="30" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="18" column="0" filename="$USER_HOME$/code/splash/schema.sql" />
+      <jump line="253" column="0" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="8" column="17" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="10" column="18" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="7" column="4" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="20" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="26" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="60" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/login.ts" />
+      <jump line="98" column="16" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="100" column="64" filename="$USER_HOME$/code/splash/app/server.py" />
+      <jump line="4" column="7" filename="$USER_HOME$/code/splash/app/tweet_processing.py" />
+      <jump line="30" column="0" filename="$USER_HOME$/code/splash/app/config.py" />
+      <jump line="77" column="0" filename="$USER_HOME$/code/splash/app/frontend/js/main.tsx" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHNoKCJkb2NrZXIgLS12ZXJzaW9uIikK</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+      <register name="/" type="4">
+        <text>console.error</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">PiBwc3FsIC1oIDEyNy4wLjAuMSAtcCA1NDMyIC1VIHBvc3RncmVzIHNwbGFzaF9yZWxhdGlvbmFsX2RiCg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHNoKCJkb2NrZXIgLS12ZXJzaW9uIikK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">PiBcaSB+L2NvZGUvc3BsYXNoL3NjaGVtYS5zcWwK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgYnVpbGQ6IC4KICAgICAgY29tbWFuZDogcHl0aG9uIG1hbmFnZS5weSBydW5zZXJ2ZXIgMC4wLjAuMDo1MDAw</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUuZXJyb3IoOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICBhc3luYyBmdW5jdGlvbg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CiAgICBlbnZpcm9ubWVudDoKICAgICAgUE9TVEdSRVNfREI6ICR7REFUQUJBU0VfTkFNRX0KICAgICAgUE9TVEdSRVNfUEFTU1dPUkQ6ICR7UEFTU1dPUkR9</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICBlbnZfZmlsZToKICAgIC0gLi9zZWNyZXRzX2FuZF9jb25maWcuZW52Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CiMgcmVzcG9uc2VzIGZyb20gUmVkaXMgYXJlIGFsd2F5cyBieXRlLXN0cmluZ3MsIHRoZXkgbmVlZCB0byBiZSBlbmNvZGVkIQojIHIuc2V0KCJmb28iLCAiYmFyIikKIyBwcmludChyLmdldCgiZm9vIikuZGVjb2RlKCJ1dGYtOCIpKQ==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>console.error</last-search>
+      <last-offset />
+      <last-pattern>console.error</last-pattern>
+      <last-replace>throw Error</last-replace>
+      <last-substitute>console.error</last-substitute>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="true" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
