@@ -4,7 +4,6 @@ auto-xflux 0.4.0-1
 aws-cli 1.17.11-1
 bat 0.12.1-1
 bitwarden-bin 1.16.6-2
-broot 0.13.0-1
 chromium 80.0.3987.87-1
 cloc 1.84-1
 cozy-desktop 3.18.0-1
@@ -55,3 +54,4 @@ wget 1.20.3-2
 yarn 1.22.0-1
 yubico-pam 2.26-1
 brightnessctl
+clamav 0.102.2-2
