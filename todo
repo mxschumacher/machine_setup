@@ -1,5 +1,3 @@
-create mechanism to copy configuration files to correct location on the system
-
 automate backup
 automate broken symlink repair
 
@@ -12,8 +10,7 @@ create "fresh_install" script: manually get yay, then install everything in the 
 yay -> fish -> omf -> sushi
 
 automate global packages installation from:
-- npm (with yarn)
-- pypi
+- rustup
 
 config + plugins for: vscode, Pycharm, Firefox
 
