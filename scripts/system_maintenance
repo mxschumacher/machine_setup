@@ -7,7 +7,7 @@
 # Make sure to have a strong connection to the internet for the steps that depend on the network
 # The requests to the various packages can be run in parallel!
 
-neofetch --gtk3 off --gtk2 off --refresh_rate on 
+neofetch --gtk3 off --gtk2 off --refresh_rate on
 
 echo "Let's look for any failed services as reported by systemd"
 systemctl --failed
