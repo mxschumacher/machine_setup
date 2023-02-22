@@ -40,7 +40,6 @@ end
 echo "Retrieving mirror status and updating based on location"
 
 # pacman-mirrors --status
-
 sudo pacman-mirrors --geoip --api --protocol https
 
 echo "Updating pacman packages ..."
