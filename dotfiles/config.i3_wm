@@ -11,13 +11,14 @@ floating_modifier $mod
 exec --no-startup-id xsetroot -solid "#333333"
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec urxvt -e /usr/bin/fish
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # take a screenshot with Flameshot
-bindsym Control+Shift+4 exec flameshot gui -p ~/Cozy\Drive/screenshots
+# have a global configuration file that defines file paths
+# bindsym Control+Shift+4 exec flameshot gui -p ~/Schatzkiste/screenshots
 
 # make rofi into the default application launcher
 bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
@@ -26,13 +27,13 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
-bindsym $mod+odiaeresis focus right
+bindsym $mod+semicolon focus right
 
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
-bindsym $mod+Shift+odiaeresis move right
+bindsym $mod+Shift+semicolon move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -135,19 +136,22 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# I think we still need this, even though Polybar is set up
-bar {
-        status_command i3status
-}
-
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls
-bindsym XF86MonBrightnessUp exec brightnessctl -d "intel_backlight" s +4% 
-bindsym XF86MonBrightnessDown exec brightnessctl -d "intel_backlight" s 4%- 
+# make sure that changing the audio volume and the screen brightness changes are being displayed on screen
+exec --no-startup-id volnoti &
+
+# increase sound volume and display current volume settings via volnotify
+# I am not happy with this hardcoded path, I will have to fix this.
+bindsym XF86AudioRaiseVolume exec sh /home/mxschumacher/machine_setup/scripts/i3/audio_volume.sh "up"
+bindsym XF86AudioLowerVolume exec sh /home/mxschumacher/machine_setup/scripts/i3/audio_volume.sh "down"
+
+# toggle mute sound
+bindsym XF86AudioMute exec --no-startup-id "amixer set Master toggle && if amixer get Master | rg -F '[off]'; then volnoti-show --mute; else volnoti-show $(amixer get Master | rg -Po '[0-9]+(?=%)' | head -1); fi"
+
+# I am not happy with this hardcoded path, I will have to fix this.
+bindsym XF86MonBrightnessUp exec sh /home/mxschumacher/machine_setup/scripts/i3/screen_brightness.sh "up"
+bindsym XF86MonBrightnessDown exec sh /home/mxschumacher/machine_setup/scripts/i3/screen_brightness.sh "down"
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
@@ -157,3 +161,12 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# kill wifi - I have an alias for that!
+
+# launch the compositor picom to avoid screen tearing
+exec --no-startup-id picom &
+
+# show a little icon for the bluetooth settings app 'blueman'
+exec --no-startup-id blueman-applet &
+
