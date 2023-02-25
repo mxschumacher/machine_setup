@@ -11,7 +11,8 @@ floating_modifier $mod
 exec --no-startup-id xsetroot -solid "#333333"
 
 # start a terminal
-bindsym $mod+Return exec urxvt -e /usr/bin/fish
+# bindsym $mod+Return exec urxvt -e /usr/bin/fish
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
